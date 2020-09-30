@@ -1,4 +1,5 @@
 print('you are hearing me talk')
+print("")
 
 class Member():
     def __init__(self, name):
@@ -38,12 +39,14 @@ class Workshop():
         print("Workshop:")
         print("Date: "+self.date)
         print("Subject: "+self.subject)
+        print("")
 
     def print_students(self):
         print("Students:")
         for student in self.roster:
             print("Name: "+student.fullname)
             print("Reason: "+student.reason)
+        print("")
 
     def print_instructors(self):
         print("Instructors")
@@ -55,6 +58,7 @@ class Workshop():
 
     def print_details(self):
         print('Details:')
+        print("")
         self.print_workshop()
         self.print_students()
         self.print_instructors()
