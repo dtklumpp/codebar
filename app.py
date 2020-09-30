@@ -53,6 +53,7 @@ class Workshop():
         for teacher in self.bullpen:
             print("Name: "+teacher.fullname)
             print("Bio: "+teacher.bio)
+            print("Skills:")
             for skill in teacher.skills:
                 print(skill)
 
